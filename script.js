@@ -96,7 +96,6 @@ function selectCell(x, y){
     let vazio = 0
     for (let i = 0; i < cells.length; i++) {
         cells[i].includes(0) ? vazio : vazio++
-        console.log(vazio)
         if(vazio === 3){
             alert('Empate')
             resetAll()
