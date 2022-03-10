@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#gameScreen {
+    background-image: linear-gradient(#a8c0ff,#3f2b96);
+    padding: 10%;
+    margin: 2% auto;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: Noto Sans;
+    font-style: italic;
+    margin: 20px;
+    text-shadow: 1px 1px 5px black;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    font-weight: 900;
+    font-family: Noto Sans;
+}
+
+input {
+    background: none;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+}
+
+input:hover {
+    background-color: #c83d38;
+    -webkit-transition: 0.9s;
+}
+
+input:focus::placeholder {
+    background-color: aqua;
+}
+
+input:active {
+    box-shadow: 0px 0px 30px 20px rgb(255, 119, 119);
+    background-color: red;
+    -webkit-transition: 0.1s; 
+}
+
+input:active:checked {
+    box-shadow: 0px 0px 150px 100px rgb(255, 119, 119);
+    -webkit-transition: 0.5s;
+}
+
+.reset {    
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e75170;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px;
+    border-radius: 5px;
+}
+.reset:hover{
+    background-color: #7c0606;
+    padding: 20px;
+    -webkit-transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cell {
+    background: none;
+    border: 0.5px solid white;
+    height: 100px;
+    width: 100px;
+    font-size: 100px;
+}
+
+.cell:hover {    
+    background-color: #c83d38;
+    -webkit-transition: 0.3s;
+}
+
+.cell:active {
+    box-shadow: 0px 0px 30px 20px rgb(255, 119, 119);
+    background-color: red;
+    -webkit-transition: 0.1s; 
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
+    <title>Jogo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <section id="gameScreen">
+        <h1>jogo da velha</h1>
+        <header id="placar"></header>
+        <section>
+            <div>
+                <button class="cell" onclick="selectCell(0, 0);" id="0, 0"></button>
+                <button class="cell" onclick="selectCell(0, 1);" id="0, 1"></button>
+                <button class="cell" onclick="selectCell(0, 2);" id="0, 2"></button>
+                <button class="cell" onclick="selectCell(1, 0);" id="1, 0"></button>
+                <button class="cell" onclick="selectCell(1, 1);" id="1, 1"></button>
+                <button class="cell" onclick="selectCell(1, 2);" id="1, 2"></button>
+                <button class="cell" onclick="selectCell(2, 0);" id="2, 0"></button>
+                <button class="cell" onclick="selectCell(2, 1);" id="2, 1"></button>
+                <button class="cell" onclick="selectCell(2, 2);" id="2, 2"><p class="x"></p><p class="O"></p></button>
+            </div>
+            <button id="reset" class="reset"> reset game</button>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
